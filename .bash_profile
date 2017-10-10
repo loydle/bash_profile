@@ -5,7 +5,7 @@ export LANG=fr_FR.UTF-8
 
 # Path
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export PATH=$PATH:.:$HOME/.personal_bin:$HOME/.vendors_bin/google-cloud/bin: 
+export PATH=$PATH:.:$HOME/.personal_bin:
 export PATH=$PATH:$HOME/.personal_bin/localhost
 
 # Bash
