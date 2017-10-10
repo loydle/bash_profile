@@ -1,7 +1,7 @@
 # Locale 
 
- export LC_ALL=fr_FR.UTF-8
- export LANG=fr_FR.UTF-8
+export LC_ALL=fr_FR.UTF-8
+export LANG=fr_FR.UTF-8
 
 # Path
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
@@ -15,9 +15,9 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx # dark background
 
 # Enhance default commands
 alias ls='ls -G'
+alias tree='tree -C -h'
 alias pre='open -a Preview'
 alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-
 
 
 # Grep
