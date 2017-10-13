@@ -5,7 +5,7 @@ export LANG=fr_FR.UTF-8
 
 # Path
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export PATH=$PATH:.:$HOME/.personal_bin:
+export PATH=$PATH:.:$HOME/.personal_bin
 export PATH=$PATH:$HOME/.personal_bin/localhost
 
 # Bash
@@ -15,6 +15,7 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx # dark background
 
 # Enhance default commands
 alias ls='ls -G'
+alias cd..='cd ..'
 alias tree='tree -C -h'
 alias pre='open -a Preview'
 alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
@@ -41,5 +42,5 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 
 
-clear
+clear 
 
