@@ -6,7 +6,9 @@ export LANG=fr_FR.UTF-8
 # Path
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=$PATH:.:$HOME/.personal_bin
-export PATH=$PATH:$HOME/.personal_bin/localhost
+export PATH=$PATH:/usr/local/bin/localhost
+export PATH=$PATH:/Users/loydvan/.rvm/bin
+ [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
 
 # Bash
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx # dark background
@@ -14,7 +16,7 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx # dark background
 
 
 # Enhance default commands
-alias ls='ls -G'
+alias ls='ls -G -1'
 alias cd..='cd ..'
 alias tree='tree -C -h'
 alias pre='open -a Preview'
