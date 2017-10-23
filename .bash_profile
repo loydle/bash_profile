@@ -16,7 +16,7 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx # dark background
 
 
 # Enhance default commands
-alias ls='ls -G -1 -a'
+alias ls='ls -G -a'
 alias cd..='cd ..'
 alias tree='tree -C -h'
 alias pre='open -a Preview'
