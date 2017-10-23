@@ -7,8 +7,15 @@ export LANG=fr_FR.UTF-8
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=$PATH:.:$HOME/.personal_bin
 export PATH=$PATH:/usr/local/bin/localhost
+
+
+## Ruby
 export PATH=$PATH:/Users/loydvan/.rvm/bin
  [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+
+## Yarn
+export PATH="$PATH:`yarn global bin`"
+
 
 # Bash
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx # dark background
