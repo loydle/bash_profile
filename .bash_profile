@@ -27,9 +27,9 @@ alias ls='ls -G -a'
 alias cd..='cd ..'
 alias tree='tree -C -h'
 alias pre='open -a Preview'
-alias prenumbers='open -a Numbers'
+alias precsv='open -a Numbers'
 alias presublime='open -a "Sublime Text"'
-
+alias prechrome='open -a "Google Chrome"'
 
 # Grep
 alias grep='grep -n'
