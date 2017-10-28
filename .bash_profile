@@ -5,7 +5,7 @@ export LANG=fr_FR.UTF-8
 
 # Path
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export PATH=$PATH:.:$HOME/.personal_bin
+export PATH=$PATH:.
 export PATH=$PATH:/usr/local/bin/localhost
 
 
@@ -27,7 +27,8 @@ alias ls='ls -G -a'
 alias cd..='cd ..'
 alias tree='tree -C -h'
 alias pre='open -a Preview'
-alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias prenumbers='open -a Numbers'
+alias presublime='open -a "Sublime Text"'
 
 
 # Grep
