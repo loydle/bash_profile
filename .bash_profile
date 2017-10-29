@@ -24,7 +24,8 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx # dark background
 
 
 # Enhance default commands
-alias ls='ls -G -a'
+alias ls='ls -G'
+alias ls-='ls -a'
 alias cd..='cd ..'
 alias tree='tree -C -h'
 alias pre='open -a Preview'
@@ -33,7 +34,7 @@ alias sublime='open -a "Sublime Text"'
 alias chrome='open -a "Google Chrome"'
 alias vsc='open -a "Visual Studio Code"'
 alias safari='open -a Safari'
-
+alias ibook='open -a iBooks'
 
 # Grep
 alias grep='grep -n'
