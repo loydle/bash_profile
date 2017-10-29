@@ -37,9 +37,8 @@ alias safari='open -a Safari'
 alias ibook='open -a iBooks'
 
 # Grep
-alias grep='grep -n'
 export GREP_OPTIONS='--color=auto'
-export GREP_COLOR='1;35;40'
+export GREP_COLOR='1;33'
 
 
 # Prompt
