@@ -9,7 +9,7 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=$PATH:.
 export PATH=$PATH:/usr/local/bin/localhost
 
-# Bash completion
+# Brew auto-completion
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 ## Ruby
