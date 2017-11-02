@@ -70,6 +70,4 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 # clear new screen
 clear 
 
-# Password on launch
 
-```
