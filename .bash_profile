@@ -29,6 +29,8 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx # dark background
 alias ls='ls -G'
 alias ls-='ls -a'
 alias cd..='cd ..'
+alias cd-='cd -'
+alias cl='clear'
 alias tree='tree -C -h -L 2'
 alias pre='open -a Preview'
 alias numbers='open -a Numbers'
@@ -38,6 +40,16 @@ alias vsc='open -a "Visual Studio Code"'
 alias safari='open -a Safari'
 alias ibook='open -a iBooks'
 alias 'backup -logs'='backup -log'
+
+# cd
+alias ing='cd ~/Work/ING;clear;tree'
+alias work='cd ~/Work;clear;tree'
+alias sandbox='cd ~/Sandbox;clear;tree'
+alias desktop='cd ~/Desktop;clear;tree'
+alias download='cd ~/Downloads;clear;tree'
+alias manuals='cd ~/Manuals;clear;tree -L 1'
+alias home='cd ~/;clear;tree -L 1'
+
 # Grep
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;33'
@@ -56,4 +68,6 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 # clear new screen
 clear 
+
+# Password on launch
 
