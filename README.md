@@ -41,8 +41,11 @@ alias vsc='open -a "Visual Studio Code"'
 alias safari='open -a Safari'
 alias ibook='open -a iBooks'
 alias 'backup -logs'='backup -log'
+alias showHiddenFiles='defaults write com.apple.finder AppleShowAllFiles YES ; killAll Finder ; echo Finder restarted'
+alias hideHiddenFiles='defaults write com.apple.finder AppleShowAllFiles NO ; killall Finder ; echo Finder restarted'
 
 # cd
+alias coding='cd ~/Coding;clear;tree'
 alias ing='cd ~/Work/ING;clear;tree'
 alias work='cd ~/Work;clear;tree'
 alias sandbox='cd ~/Sandbox;clear;tree'
@@ -71,3 +74,4 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 clear 
 
 
+```
